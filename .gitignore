@@ -83,9 +83,6 @@ out
 dist
 .output
 
-# NitroJS
-.nitro/
-
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -125,9 +122,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Stores Visual Studio Code versions used for testing Visual Studio Code extensions
-.vscode-test
-
 # pnpm
 .pnpm-store
 
@@ -145,13 +139,27 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# Astro generated types
-.astro/
+# Visual Studio Code files
+.vscode/
+.history/
+prettierignore.txt
+*.code-workspace
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
-# Turbo Repo (https://turborepo.dev/)
-.turbo
+# AI development artifacts: skills, context, prompts, instructions, and agent-specific files
+.ai/
+.ai-context/
+.context/
+.vibes/
+.agents/
+.skills/
+.cursor/
+.cursorrules
+.windsurfrules
+.opencode/
+skills-lock.json
 
-# Nx (https://nx.dev/)
-.nx/cache
-.nx/workspace-data
-.nx/migrate-runs
+# Mandatory local prompt log and its rotated copies (see docs/agents-log-policy.md)
+/AGENTS.log
+/AGENTS.log.*
