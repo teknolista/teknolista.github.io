@@ -1,9 +1,24 @@
 schema: spec-driven
 
 context: |
-  Language: english
-  All artifacts must be written in english.
+  Repository: Landing page for @teknolista profile on GitHub.
+  Read the repository AGENTS.md and the applicable instructions and contracts.
+  PentaPRO in pentapro/ maintains project facts and specifications; OpenSpec owns active changes and their scenarios and tasks. Reconcile changed records and validation evidence across both.
+  Language: English
+  All artifacts must be written in English.
   Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+rules:
+  proposal:
+    - State the intended outcome, scope, exclusions, and affected subprojects.
+  specs:
+    - Describe observable behavior and relevant failure cases in acceptance
+      scenarios.
+  tasks:
+    - Link behavior tasks to their acceptance scenarios and name the evidence
+      needed.
+
+skillsScope: project
 
 # Per-artifact rules (optional)
 # Add custom rules for specific artifacts.
